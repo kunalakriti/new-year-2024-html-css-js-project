@@ -1,0 +1,184 @@
+*{
+    padding: 0;margin: 0;
+    
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');body{
+    background-color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    display: flex;
+    height: 10vmin;
+    width: 100%;
+    color: rgb(102, 83, 83);
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: #9DC0BC; */
+    font-size: 4vmin;
+    font-weight: 400;
+    background-color:  black;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    /* opacity: 0.4; */
+    
+    
+    
+}#logo{
+    font-weight: 700;
+    cursor: pointer;
+
+}
+#logo a{    text-decoration: none;
+}
+.navlist{
+    display: flex;
+    list-style: none;
+    gap: 3vmax;
+    align-items: center;
+   
+}
+.navlist li{
+text-decoration: none;
+    
+    
+}
+.navlist li a{
+    cursor: pointer;
+    text-decoration: none;
+}
+main{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15vmin;
+}
+.firstcont{
+    height: 70vmin;
+    
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}.outercirc{
+    height: 50vmin;
+    width:50vmin;
+    border-radius: 50%;
+    background-color: #C1FFF2;
+    margin-top: 9vmin;
+     text-align: center;
+    position: relative;
+    border: 1vmin solid #9DC0BC;
+    border-color: #9DC0BC;
+}
+.myimg{
+    position: absolute;
+    height: 65vmin;
+    width:70vmin;
+    
+
+}
+
+.secondcont{
+    width: 40%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}.hello{
+    font-size: 2rem;
+}.head-line{
+    font-size: 1rem;
+}.name{
+    font-size: 1.2rem;
+    color: #1AF5DC;
+}
+.main-cont{
+    margin-top: 2vmin;
+    font-size: 1.3rem;
+    color: antiquewhite;
+}
+#about{
+    margin-top: 2vmax;
+}
+h1{
+    color:#1AF5DC;
+    font-size: 8vmax;
+    margin-bottom: -2.5vmax;
+    text-align: center;
+}
+.newyr{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 4.5vmax;
+    font-weight: 700;
+    margin-bottom: 4vmax;
+    text-align: center;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(1rem,1fr));
+    gap: 2rem;
+    width: 100%;
+
+}
+.container .bx{
+    border-radius: 10px;
+    height: 14.25rem;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 10px solid #1AF5DC;
+}
+.container .bx .caption{
+    color: #9DC0BC;
+}
+.container .bx .counter{
+    color: #fff;
+    font-size: 5rem;
+
+}#contact{
+    margin: 3vmax;
+}
+.contact{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 5vmax;
+}
+.socialicon{
+    display: flex;
+    gap: 2vmin;
+    justify-content: center;
+    align-items: center;
+    /* height: auto; */
+    margin-top: 2vmax;
+   
+}.socialicon img{
+    color: #fff;
+    height: 12vmin;
+    width: 12vmin;
+}
+
+
+
+
+
+
+
+
+
+
+
